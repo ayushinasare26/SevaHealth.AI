@@ -12,8 +12,9 @@ const Landing = () => {
   ]
 
   return (
-    <div key={language} className="min-h-screen bg-gradient-to-b from-green-50 to-white">
+    <div key={language} className="min-h-screen bg-mint-cream">
       {/* Header */}
+      <div className="bg-white">
       <div className="container mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
@@ -42,6 +43,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* Main Content */}
@@ -124,7 +126,7 @@ const Landing = () => {
       </div>
 
       {/* Why SevaHealth AI is Different */}
-      <div className="container mx-auto px-4 py-8 bg-white">
+      <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-8">
             🏆 {t('whyDifferent')}

@@ -45,7 +45,7 @@ function App() {
   return (
     <LanguageProvider>
       <AccessibilityMode>
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-mint-cream">
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/symptoms" element={<SymptomInput />} />

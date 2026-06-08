@@ -13,6 +13,7 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F5FFFA;
 }
 
 /* Custom button styles for better touch targets */

@@ -51,7 +51,7 @@ const RoleSelector = ({ onRoleSelect }) => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-mint-cream flex items-center justify-center p-4">
       <div className="bg-white rounded-xl shadow-lg max-w-4xl w-full p-8">
         <div className="text-center mb-8">
           <div className="text-6xl mb-4">🩺</div>

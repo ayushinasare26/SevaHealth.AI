@@ -68,7 +68,7 @@ const DoctorDashboard = () => {
 
   if (!isLoggedIn) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-mint-cream flex items-center justify-center">
         <div className="bg-white p-8 rounded-xl shadow-lg max-w-md w-full mx-4">
           <div className="text-center mb-8">
             <div className="text-4xl mb-4">👨‍⚕️</div>
@@ -127,7 +127,7 @@ const DoctorDashboard = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-mint-cream">
       {/* Header */}
       <div className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
